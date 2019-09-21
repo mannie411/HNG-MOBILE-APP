@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.github.mannie411.hngmobileapp"
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation('androidx.appcompat:appcompat:1.0.0-alpha1') { changing = true }
+    implementation('androidx.constraintlayout:constraintlayout:1.1.2') { changing = true }
+    implementation 'androidx.appcompat:appcompat:1.0.0-alpha1'
+    implementation 'com.google.android.material:material:1.0.0-alpha1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation('androidx.test:runner:1.1.0-alpha3') { changing = true }
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0-alpha3') {
+        changing = true
+    }
+    // implementation 'com.android.support:design:28.0.0'
+    implementation('com.google.android.material:material:1.1.0-alpha04') { changing = true }
+    // implementation 'androidx.core:core-ui:+'
+    implementation 'com.google.firebase:firebase-database:19.1.0'
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "541453835055",
+    "firebase_url": "https://hngmobileapp.firebaseio.com",
+    "project_id": "hngmobileapp",
+    "storage_bucket": "hngmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541453835055:android:3c66c638a7b69da5ed1fda",
+        "android_client_info": {
+          "package_name": "com.github.mannie411.hngmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541453835055-l5pll3vaanpk9uh2pqsrvt7oe08e5n11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3MJ8SUWhNSJvmRtN8ARDUJY7InmUI6z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541453835055-l5pll3vaanpk9uh2pqsrvt7oe08e5n11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
